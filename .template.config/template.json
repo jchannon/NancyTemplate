@@ -12,5 +12,22 @@
     "tags": {
         "language": "C#"
     },
-    "sourceName": "NancyTemplate"
+    "sourceName": "NancyTemplate",
+    "symbols": {
+        "Framework": {
+            "type": "parameter",
+            "datatype": "choice",
+            "choices": [
+                {
+                "choice": "netcoreapp1.0",
+                "description": "Target netcoreapp1.0"
+                },
+                {
+                "choice": "netcoreapp1.1",
+                "description": "Target netcoreapp1.1"
+                }
+            ],
+            "defaultValue": "netcoreapp1.1"
+        }
+    }
 }
